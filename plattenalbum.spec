@@ -35,4 +35,13 @@ Browse your collection while viewing large album covers. Play your music without
 %install
 %meson_install
 
-%files
+%find_lang de.wagnermartin.Plattenalbum
+
+%files -f de.wagnermartin.Plattenalbum.lang
+%{_bindir}/plattenalbum
+%{_datadir}/applications/de.wagnermartin.Plattenalbum.desktop
+%{_datadir}/de.wagnermartin.Plattenalbum/de.wagnermartin.Plattenalbum.gresource
+%{_datadir}/glib-2.0/schemas/de.wagnermartin.Plattenalbum.gschema.xml
+%{_datadir}/metainfo/de.wagnermartin.Plattenalbum.metainfo.xml
+%{_iconsdir}/hicolor/scalable/apps/de.wagnermartin.Plattenalbum.svg
+%{_iconsdir}/hicolor/symbolic/apps/de.wagnermartin.Plattenalbum-symbolic.svg
