@@ -1,3 +1,5 @@
+%undefine _debugsource_packages
+
 Name:           plattenalbum
 Version:        2.2.0
 Release:        1
