@@ -11,6 +11,7 @@ Source:         https://github.com/SoongNoonien/plattenalbum/archive/v%{version}
 BuildRequires:  meson
 BuildRequires:  gettext
 BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(gtk4)
 
 Requires:  python
 Requires:  python-mpd2
