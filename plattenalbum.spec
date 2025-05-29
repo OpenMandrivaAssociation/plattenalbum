@@ -12,6 +12,7 @@ BuildRequires:  meson
 BuildRequires:  gettext
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk4)
+BuildRequires:  desktop-file-utils
 
 Requires:  python
 Requires:  python-mpd2
