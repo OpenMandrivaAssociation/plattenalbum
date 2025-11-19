@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           plattenalbum
-Version:        2.3.1
+Version:        2.4.0
 Release:        1
 Summary:        A client for the Music Player Daemon (MPD).
 License:        GPL-3.0
