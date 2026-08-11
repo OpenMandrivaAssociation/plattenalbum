@@ -1,7 +1,7 @@
 %undefine _debugsource_packages
 
 Name:           plattenalbum
-Version:        2.5.0
+Version:        2.6.0
 Release:        1
 Summary:        A client for the Music Player Daemon (MPD).
 License:        GPL-3.0
@@ -15,7 +15,8 @@ BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  desktop-file-utils
 
 Requires:  python
-Requires:  python-mpd2
+# dropped in 2.6.0
+#Requires:  python-mpd2
 Requires:  python-gobject3
 Requires:  python-gi
 Requires:  gtk4
